@@ -1,0 +1,191 @@
+/*Спецификация*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+ul,li,a{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+h1,h2{
+	text-transform: uppercase;
+}
+input{
+	outline:none;
+	border: none;
+	padding-left: 40px;
+}
+
+/*Первый экран*/
+.header{
+	height: 679px;
+	background: url(../img/overlay.png), url(../img/bg-header-replace.png);
+	padding-top: 55px;
+}                                         
+.text__logo{
+	font-size: 24px;
+	font-weight: 800;
+	color: #fff;
+
+}
+.menutop__item{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	margin-right: 34px;
+	font-weight: 800;
+	margin-top: 10px;
+
+}
+
+.menu a:visited {
+    color: #fff; 
+   }
+.menu a:active {
+    color: #fff; 
+   }
+ .contact__us__btn{
+ 	margin-left: 60px;
+ 	width: 140px;
+ 	height: 45px;
+ 	font-size: 16px;
+background: #07b569;
+color: #fff;
+font-weight: 800;
+border: 0;
+ }
+ .title__text{
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	font-size: 54px;
+ 	text-align: center;
+ 	color: #fff;
+ 	width: 875px;
+ 	padding-top: 170px;
+ }
+
+/*Второй экран*/
+.about_us{
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+.image__aboutus{
+	width: 503px;
+	height: 377px;
+	margin-bottom: 120px;
+	background: url(../img/overlay.png), url(../img/replace_image.png);
+		
+}
+.title__aboutus{
+	font-size: 36px;
+	font-weight: 400;
+	margin-top: 39px;
+}
+.text__aboutus{
+	font-size: 18px;
+	color: #5f5f5f;
+	width: 530px;
+	margin-bottom: 40px;
+}
+.btn__aboutus{
+	width: 200px;
+	height: 45px;
+	font-size: 16px;
+	background: #07b569;
+	color: #fff;
+	font-weight: 800;
+	border: 0;
+}
+.item{
+	text-align: center;
+}
+.title__item{
+font-size: 18px;
+font-weight: 800;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.text__item{
+font-size: 16px;
+font-weight: 400;
+color: #5f5f5f;
+margin-bottom: 80px;
+}
+.top{
+	margin-top: 14px;
+}
+/*Третий экран*/
+.portfolio{
+	padding-bottom: 120px;
+}
+.title__portfolio{
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+.imageproject{
+	width: 100%;
+}
+.imageproject__item{
+	width: 25%;
+	height: auto;
+	margin-right: -4px;
+}
+.btn__project{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn__portfolio{
+margin-top: 60px;
+color: #fff;
+background: #07b569;
+font-size: 16px;
+font-weight: 800;
+width: 200px;
+height: 50px;
+border: 0;
+}
+/*Четвертый экран*/
+.review{
+	background: url(../img/bg_reviews.png);
+}
+.title__review{
+	margin-top: 90px;
+	font-size: 100px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+.text__review{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -60px;
+	margin-bottom: 40px;
+	color: #e6edef;
+	font-size: 16px;
+	font-weight: 400;
+	width: 770px;
+	text-align: center;
+}
+.name__review{
+	color: #fff;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.status__review{
+	margin-top: -10px;
+	color: #fff;
+font-size: 15px;
+font-weight: 300;
+text-align: center;
+}
+/*Пятый экран*/
+
+/*Шестой экран*/
+ 
+/*Седьмой экран*/
+
+/*Восьмой экран*/
